@@ -18,7 +18,15 @@ Create a server application using C# .NET framework with controllers, models, an
 
 ## Setup Instructions
 
-### Step 1: Configure the Application
+### Step 1: Clone the Repository
+
+Clone the repository to your local machine using the following command:
+
+```sh
+git clone https://github.com/MichaelHazut/MsApps_Assignment
+```
+
+### Step 2: Configure the Application
 
 Open the `appsettings.json` file and update the following settings:
 
@@ -40,29 +48,7 @@ root/ServerApp/appsettings.json
 }
 ```
 
-### Step 2: Run and test the Server
-#####  Option 1: Run and test from Folder
-
-Publish the Application:
-
-Right-click on the `ServerAppTest` project in Visual Studio and select Publish.
-Choose Folder as the target and specify the path.
-Click Publish.
-Run the Application:
-
-Navigate to the published folder.
-Run the `ServerAppTest.exe` file.
-
-#### Option 2: Run and Test from Visual Studio
-
-Select the Startup Project:
-
-Select the ServerAppTest as your startup project in Visual Studio.
-Run the Application:
-
-Run the application and observe the console output as the system creates, updates, and deletes a user from the database.
-
-### Step 2: Run and test the Server
+### Step 3: Run and test the Server
 ##### Option 1: Run and test from Folder
 
 Publish the Application:
@@ -84,7 +70,7 @@ Run the Application:
 
 Run the application and observe the console output as the system creates, updates, and deletes a user from the database.
 
-### Step 3: Test the Batch Service
+### Step 4: Test the Batch Service
 The batch service is configured in the asp.net project  to run every Sunday at 8 PM.
 
 - To run it manually:
